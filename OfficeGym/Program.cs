@@ -17,7 +17,7 @@ builder.Services.AddDbContext<MvcOfficeGymDbContext>(options =>
 
 var app = builder.Build();
 
-Seed.SeedData(app);
+SeedData.Initialize(app);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
