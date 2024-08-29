@@ -6,6 +6,8 @@ namespace OfficeGym.Controllers
     {
         public IActionResult Index()
         {
+
+        
             return View();
         }
     }
