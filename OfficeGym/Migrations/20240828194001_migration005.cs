@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace OfficeGym.Migrations
 {
     /// <inheritdoc />
-    public partial class migration001 : Migration
+    public partial class migration005 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

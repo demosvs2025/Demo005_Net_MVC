@@ -12,8 +12,8 @@ using OfficeGym.Data;
 namespace OfficeGym.Migrations
 {
     [DbContext(typeof(MvcOfficeGymDbContext))]
-    [Migration("20240823010930_migration001")]
-    partial class migration001
+    [Migration("20240828194001_migration005")]
+    partial class migration005
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
