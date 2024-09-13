@@ -1,0 +1,51 @@
+﻿@model OfficeGym.Models.OfficeEquipmentGym
+
+@{
+    ViewData["Title"] = "Office equipment gym";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>New</h1>
+
+<h4>Office equipment gym</h4>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EquipmentGymName" class="control-label"></label>
+                <input asp-for="EquipmentGymName" class="form-control"/>
+                <span asp-validation-for="EquipmentGymName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AvailableEquipments" class="control-label"></label>
+                <input asp-for="AvailableEquipments" class="form-control" />
+                <span asp-validation-for="AvailableEquipments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MotorHorsePower" class="control-label"></label>
+                <input asp-for="MotorHorsePower" class="form-control" />
+                <span asp-validation-for="MotorHorsePower" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input asp-for="IsActive" class="form-check-input" /> 
+                    @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <br />
+            <div class="form-group">
+                <a asp-action="Index" class="btn btn-primary">Back</a>
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial"); 
+    }
+}
+
+

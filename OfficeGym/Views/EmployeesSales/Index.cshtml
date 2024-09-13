@@ -1,0 +1,73 @@
+﻿@model IEnumerable<OfficeGym.Models.EmployeeSales>
+
+@{
+    ViewData["Title"] = "Employees sales";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Employees sales</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.LastName)
+            </th>
+            <th class="text-end">
+                @Html.DisplayNameFor(model => model.StoresQuantity)
+            </th>
+            <th class="text-end">
+                @Html.DisplayNameFor(model => model.ProductsQuantity)
+            </th>
+            <th class="text-end">
+                @Html.DisplayNameFor(model => model.SalesTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Month)
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var empSales in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(e => empSales.Employee.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => empSales.Employee.LastName)
+                </td>
+                <td class="text-end">
+                    @Html.DisplayFor(e => empSales.StoresQuantity)
+                </td>
+                <td class="text-end">
+                    @Html.DisplayFor(e => empSales.ProductsQuantity)
+                </td>
+                <td class="text-end">
+                    @Html.DisplayFor(e => empSales.SalesTotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => empSales.Year)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => empSales.Month)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@empSales.EmployeeSalesId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\_2024apps\Examen005_Net_MVC_git_version\OfficeGym
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/EmployeesOfficeEquipmentsGym/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzT2ZmaWNlRXF1aXBtZW50c0d5bVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/EmployeesSales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzU2FsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +62,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/OfficeEquipmentsGym/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRXF1aXBtZW50c0d5bVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/OfficeEquipmentsGym/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRXF1aXBtZW50c0d5bVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/OfficeEquipmentsGym/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRXF1aXBtZW50c0d5bVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/Vacations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/_ViewImports.cshtml]

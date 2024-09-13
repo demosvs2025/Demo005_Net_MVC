@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|c:\\_2024apps\\examen005_net_mvc_git_version\\officegym\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|solutionrelative:officegym\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|c:\\_2024apps\\examen005_net_mvc_git_version\\officegym\\controllers\\vacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|solutionrelative:officegym\\controllers\\vacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|c:\\_2024apps\\examen005_net_mvc_git_version\\officegym\\controllers\\officeequipmentsgymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|solutionrelative:officegym\\controllers\\officeequipmentsgymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|c:\\_2024apps\\examen005_net_mvc_git_version\\officegym\\controllers\\employeesofficeequipmentsgymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|solutionrelative:officegym\\controllers\\employeesofficeequipmentsgymcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|c:\\_2024apps\\examen005_net_mvc_git_version\\officegym\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2478EAD-4882-4E15-9703-8D8EDD91B6B6}|OfficeGym\\OfficeGym.csproj|solutionrelative:officegym\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Program.cs",
+              "RelativeDocumentMoniker": "OfficeGym\\Program.cs",
+              "ToolTip": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Program.cs",
+              "RelativeToolTip": "OfficeGym\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:55:19.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OfficeEquipmentsGymController.cs",
+              "DocumentMoniker": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\OfficeEquipmentsGymController.cs",
+              "RelativeDocumentMoniker": "OfficeGym\\Controllers\\OfficeEquipmentsGymController.cs",
+              "ToolTip": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\OfficeEquipmentsGymController.cs",
+              "RelativeToolTip": "OfficeGym\\Controllers\\OfficeEquipmentsGymController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:42:35.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VacationsController.cs",
+              "DocumentMoniker": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\VacationsController.cs",
+              "RelativeDocumentMoniker": "OfficeGym\\Controllers\\VacationsController.cs",
+              "ToolTip": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\VacationsController.cs",
+              "RelativeToolTip": "OfficeGym\\Controllers\\VacationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:32:30.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesOfficeEquipmentsGymController.cs",
+              "DocumentMoniker": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\EmployeesOfficeEquipmentsGymController.cs",
+              "RelativeDocumentMoniker": "OfficeGym\\Controllers\\EmployeesOfficeEquipmentsGymController.cs",
+              "ToolTip": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\EmployeesOfficeEquipmentsGymController.cs",
+              "RelativeToolTip": "OfficeGym\\Controllers\\EmployeesOfficeEquipmentsGymController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:30:29.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "OfficeGym\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\_2024apps\\Examen005_Net_MVC_git_version\\OfficeGym\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "OfficeGym\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:30:24.931Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<OfficeGym.Models.Vacation>
+
+@{
+    ViewData["Title"] = "Vacations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Vacations</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VacationDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AboutVacation)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.FunVacationCount)
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vacation in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(e => vacation.Employee.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => vacation.Employee.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => vacation.VacationDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => vacation.AboutVacation)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => vacation.FunVacationCount)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@vacation.VacationId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

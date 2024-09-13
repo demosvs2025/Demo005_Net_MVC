@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Office Equipments Gym</h1>
+<h1>Office equipments gym</h1>
 
 <p>
-    <a asp-action="Create">Create new</a>
+    <a asp-action="Create" class="btn btn-primary">New</a>
 </p>
 
 <table class="table">
@@ -17,16 +17,39 @@
             <th>
                 @Html.DisplayNameFor(model => model.EquipmentGymName)
             </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.AvailableEquipments)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.MotorHorsePower)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+            </th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var equipment in Model)
         {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EquipmentGymName)
-            </td>
-        </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(e => equipment.EquipmentGymName)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => equipment.AvailableEquipments)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => equipment.MotorHorsePower)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => equipment.IsActive)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@equipment.OfficeEquipmentGymId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
         }
     </tbody>
 </table>

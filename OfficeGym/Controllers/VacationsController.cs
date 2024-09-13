@@ -1,17 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using OfficeGym.Data;
+using OfficeGym.Models;
 
 namespace OfficeGym.Controllers
 {
     public class VacationsController : Controller
     {
-        public IActionResult Index()
+        private readonly MvcOfficeGymDbContext context;
+
+        public VacationsController(MvcOfficeGymDbContext context)
         {
+            this.context = context;
+        }
 
-
-
-
-
-            return View();
+        public async Task<IActionResult> Index()
+        {
+            List<Vacation> vacations = await context.Vacations
+                .Include(e => e.Employee)
+                .ToListAsync();
+            return View(vacations);
         }
     }
 }

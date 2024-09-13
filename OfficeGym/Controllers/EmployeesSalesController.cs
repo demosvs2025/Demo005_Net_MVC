@@ -1,12 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using OfficeGym.Data;
 
 namespace OfficeGym.Controllers
 {
     public class EmployeesSalesController : Controller
     {
-        public IActionResult Index()
+        private readonly MvcOfficeGymDbContext context;
+
+        public EmployeesSalesController(MvcOfficeGymDbContext context)
         {
-            return View();
+            this.context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var empSales = await context.EmployeesSales
+                .Include(e => e.Employee)
+                .ToListAsync();
+
+            return View(empSales);
         }
     }
 }

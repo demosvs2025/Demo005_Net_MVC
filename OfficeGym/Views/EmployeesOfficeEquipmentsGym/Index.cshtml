@@ -1,0 +1,67 @@
+﻿@model IEnumerable<OfficeGym.Models.EmployeeOfficeEquipmentGym>
+
+@{
+    ViewData["Title"] = "Employee, office equipments gym";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Employee, office equipments gym</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OfficeEquipmentGym.EquipmentGymName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee.LastName)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.EquipmentGymTime)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var equipment in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(e => equipment.OfficeEquipmentGym.EquipmentGymName)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => equipment.Employee.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(e => equipment.Employee.LastName)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => equipment.EquipmentGymTime)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => equipment.StartDate)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(e => equipment.EndDate)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@equipment.EmployeeOfficeEquipmentGymId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

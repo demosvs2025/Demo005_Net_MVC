@@ -530,7 +530,7 @@ namespace OfficeGym.Migrations
                                     StoresQuantity = 20100,
                                     ProductsQuantity = 502500,
                                     SalesTotal = 1005010,
-                                    Year = 2020,
+                                    Year = 2023,
                                     Month = 12,
                                     Employee = employee
                                 }
@@ -546,7 +546,7 @@ namespace OfficeGym.Migrations
                                     StoresQuantity = 210,
                                     ProductsQuantity = 10500,
                                     SalesTotal = 1575000,
-                                    Year = 2020,
+                                    Year = 2023,
                                     Month = 12,
                                     Employee = employee
                                 }
@@ -562,7 +562,7 @@ namespace OfficeGym.Migrations
                                     StoresQuantity = 420,
                                     ProductsQuantity = 21000,
                                     SalesTotal = 1260000,
-                                    Year = 2020,
+                                    Year = 2023,
                                     Month = 12,
                                     Employee = employee
                                 }
@@ -578,7 +578,7 @@ namespace OfficeGym.Migrations
                                     StoresQuantity = 630,
                                     ProductsQuantity = 15600,
                                     SalesTotal = 1092000,
-                                    Year = 2020,
+                                    Year = 2023,
                                     Month = 12,
                                     Employee = employee
                                 }
@@ -594,7 +594,7 @@ namespace OfficeGym.Migrations
                                     StoresQuantity = 840,
                                     ProductsQuantity = 25100,
                                     SalesTotal = 2008000,
-                                    Year = 2020,
+                                    Year = 2023,
                                     Month = 12,
                                     Employee = employee
                                 }
@@ -610,7 +610,7 @@ namespace OfficeGym.Migrations
                                     StoresQuantity = 1050,
                                     ProductsQuantity = 28200,
                                     SalesTotal = 2397000,
-                                    Year = 2020,
+                                    Year = 2023,
                                     Month = 12,
                                     Employee = employee
                                 }
