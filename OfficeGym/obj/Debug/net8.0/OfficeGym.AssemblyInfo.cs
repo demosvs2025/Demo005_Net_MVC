@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OfficeGym")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2817bdf82ec7d913934e6287a7d976a01a326888")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9f0c4bf863a8387544a45a0ecbcfabd4953ac8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OfficeGym")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OfficeGym")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

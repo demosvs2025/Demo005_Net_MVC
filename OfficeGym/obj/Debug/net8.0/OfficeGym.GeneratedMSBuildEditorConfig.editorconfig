@@ -82,6 +82,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/Vacations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/Vacations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/_2024apps/Examen005_Net_MVC_git_version/OfficeGym/Views/Vacations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

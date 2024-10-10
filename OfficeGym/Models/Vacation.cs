@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace OfficeGym.Models
 {
@@ -28,6 +29,7 @@ namespace OfficeGym.Models
         [Display(Name = "Funniest vacation counter")]
         public required int FunVacationCount { get; set; }
 
+        [ValidateNever]
         public required Employee Employee { get; set; }
     }
 }

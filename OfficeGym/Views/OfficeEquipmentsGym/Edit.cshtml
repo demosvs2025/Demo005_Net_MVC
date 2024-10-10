@@ -18,27 +18,27 @@
                 <input asp-for="EquipmentGymName" class="form-control" />
                 <span asp-validation-for="EquipmentGymName" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <label asp-for="AvailableEquipments" class="control-label"></label>
                 <input asp-for="AvailableEquipments" class="form-control" />
                 <span asp-validation-for="AvailableEquipments" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <label asp-for="MotorHorsePower" class="control-label"></label>
                 <input asp-for="MotorHorsePower" class="form-control" />
                 <span asp-validation-for="MotorHorsePower" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-2">
                 <label class="form-check-label">
                     <input asp-for="IsActive" class="form-check-input" />
                     @Html.DisplayNameFor(model => model.IsActive)
                 </label>
             </div>
             <br />
-            <div class="form-group">
+            <div class="form-group mt-2">
                 <a asp-action="Index" class="btn btn-primary">Back</a>
-                <input type="submit" value="Save" class="btn btn-primary" />
-                <input type="submit" value="Delete" class="btn btn-danger" asp-action="Delete" onclick="return confirm('Are you sure you want to delete this?');" />
+                <input type="submit" value="Save" class="btn btn-primary ms-2" />
+                <input type="submit" value="Delete" class="btn btn-danger ms-2" asp-action="Delete" onclick="return confirm('Are you sure you want to delete this?');" />
             </div>
         </form>
     </div>

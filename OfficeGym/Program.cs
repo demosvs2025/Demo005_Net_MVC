@@ -11,6 +11,12 @@ builder.Services.AddControllersWithViews();
 string? connectionString = builder.Configuration.GetConnectionString("MvcOfficeGymDbContext");
 connectionString = connectionString is null ? "" : connectionString;
 
+if (connectionString.Contains("%ContentRootPath%"))
+{
+    string contentRootPath = builder.Environment.ContentRootPath;
+    connectionString = connectionString.Replace("%ContentRootPath%", contentRootPath);
+}
+
 builder.Services.AddDbContext<MvcOfficeGymDbContext>(options =>
   options.UseSqlServer(connectionString)
 );
